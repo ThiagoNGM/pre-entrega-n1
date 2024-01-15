@@ -1,0 +1,100 @@
+body {
+    background-image: url(../fotos/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Source Code Pro', monospace;
+    background-repeat: no-repeat;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 10%;
+
+}
+
+.logo {
+    display: flex;
+    padding: 1%;
+}
+
+.logo img {
+    height: 120px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 170%;
+    padding: 12px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+nav a:hover {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 20%;
+    color: rgba(177, 131, 14, 0.829);
+}
+
+.registrarse {
+    position: absolute;
+    left: 80%;
+    bottom: 83%
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Dancing Script', cursive;
+    text-align: left;
+    margin-left: 3%;
+    font-size: 500%;
+    display: inline-block;
+}
+
+.subtitulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+    position: absolute;
+    left: 160px;
+    top: 360px;
+    color: black;
+}
+
+.destacadoCarta {
+    position: absolute;
+    top: 20%;
+    right: 68%;
+    font-size: 460%;
+}
+
+.menuCarta {
+    position: fixed;
+    left: 78%;
+    top: 10%;
+}
+
+.menu {
+    border-radius: 5px;
+    margin-top: 90px;
+  
+    margin-left: 160px;
+    margin-right: 500px;
+
+}
+
+
+.imagenMenu {
+    height: 280px;
+    width: 350px;
+    border-radius: 20px;
+}
+footer{
+  
+    background-image: url(../fotos/fondoFooter.jpg);
+}
